@@ -24,7 +24,7 @@ class App extends Component {
 		} )
 	return(
 <div className= 'tc'>
-	<h1 className = 'f1'>Robo Friendsss</h1>
+	<h1 className = 'f1'>Robo Friends</h1>
 	<SearchBox searchCheange={this.onSearchChange} />
 		<CardArray robots={filteredRobots} />
 		</div>
